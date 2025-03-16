@@ -1,0 +1,7 @@
+rf__n_estimators: 100
+rf__min_samples_split: 2
+rf__min_samples_leaf: 4
+rf__max_features: sqrt
+rf__max_depth: 20
+rf__class_weight: balanced
+rf__bootstrap: False

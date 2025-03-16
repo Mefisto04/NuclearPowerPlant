@@ -1,0 +1,8 @@
+ensemble_type: VotingClassifier
+voting: soft
+base_estimators: rf, xgb, lgb, rare_borderline_rf
+train_samples: 972
+test_samples: 244
+rare_threshold: 5
+rare_classes: ATWS, LOF, LACP, SP, TT
+common_classes: SGBTR, SLBIC, LLB, SGATR, FLB, MD, RW, LOCA, LOCAC, RI, SLBOC, LR

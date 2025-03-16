@@ -1,0 +1,11 @@
+architecture: Sequential NN
+input_dim: 29
+hidden_layers: 256-128-64
+activation: relu
+dropout_rates: 0.4-0.3-0.2
+batch_normalization: Yes
+optimizer: Adam(lr=0.001)
+batch_size: 32
+epochs: 100
+early_stopping_patience: 15
+pca_components: 29

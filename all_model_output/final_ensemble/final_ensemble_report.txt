@@ -1,0 +1,26 @@
+Final Ensemble of Top Models
+Models used: Ensemble, One-vs-Rest
+
+Overall Accuracy: 0.9959
+Rare Class Accuracy: 0.0000
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         FLB       1.00      1.00      1.00        19
+        LACP       0.00      0.00      0.00         1
+         LLB       1.00      1.00      1.00        21
+        LOCA       1.00      1.00      1.00        21
+       LOCAC       1.00      1.00      1.00        22
+          LR       0.96      1.00      0.98        24
+          MD       1.00      1.00      1.00        25
+          RI       1.00      1.00      1.00        13
+          RW       1.00      1.00      1.00        22
+       SGATR       1.00      1.00      1.00        17
+       SGBTR       1.00      1.00      1.00        24
+       SLBIC       1.00      1.00      1.00        17
+       SLBOC       1.00      1.00      1.00        18
+
+    accuracy                           1.00       244
+   macro avg       0.92      0.92      0.92       244
+weighted avg       0.99      1.00      0.99       244

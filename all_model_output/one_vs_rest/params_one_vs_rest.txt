@@ -1,0 +1,7 @@
+model_type: One-vs-Rest
+estimator: RandomForestClassifier
+n_estimators: 200
+max_depth: 20
+rare_classes: ATWS, LOF, LACP, SP, TT
+specialized_models: ATWS, LOF, SP, TT
+optimized_thresholds: {'ATWS': 0.3, 'LOF': 0.3, 'SP': 0.3, 'TT': 0.3}
